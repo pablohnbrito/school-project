@@ -2,9 +2,9 @@ package com.school.vivi;
 
 public class Turma {
 	int idTurma;
-	int alunos_idaluno;
-	int curso_idCurso;
-	int professor_idProfessor;
+	Aluno[] alunos;
+	Curso curso;
+	Professor professor;
 	float valor;
 
 	public int getIdTurma() {
@@ -15,28 +15,28 @@ public class Turma {
 		this.idTurma = idTurma;
 	}
 
-	public int getAlunos_idaluno() {
-		return alunos_idaluno;
+	public Aluno[] getAlunos() {
+		return alunos;
 	}
 
-	public void setAlunos_idaluno(int alunos_idaluno) {
-		this.alunos_idaluno = alunos_idaluno;
+	public void setAlunos(Aluno[] alunos) {
+		this.alunos = alunos;
 	}
 
-	public int getCurso_idCurso() {
-		return curso_idCurso;
+	public Curso getCurso() {
+		return curso;
 	}
 
-	public void setCurso_idCurso(int curso_idCurso) {
-		this.curso_idCurso = curso_idCurso;
+	public void setCurso(Curso curso) {
+		this.curso = curso;
 	}
 
-	public int getProfessor_idProfessor() {
-		return professor_idProfessor;
+	public Professor getProfessor() {
+		return professor;
 	}
 
-	public void setProfessor_idProfessor(int professor_idProfessor) {
-		this.professor_idProfessor = professor_idProfessor;
+	public void setProfessor(Professor professor) {
+		this.professor = professor;
 	}
 
 	public float getValor() {

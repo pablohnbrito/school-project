@@ -1,15 +1,15 @@
 package com.school.vivi;
 
 public class DiaAula {
-	int cursoIdCurso;
+	Curso curso;
 	int dataAula;
 
-	public int getCursoIdCurso() {
-		return cursoIdCurso;
+	public Curso getCurso() {
+		return curso;
 	}
 
-	public void setCursoIdCurso(int cursoIdCurso) {
-		this.cursoIdCurso = cursoIdCurso;
+	public void setCurso(Curso curso) {
+		this.curso = curso;
 	}
 
 	public int getDataAula() {
